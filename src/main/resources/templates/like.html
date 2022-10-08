@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1000/xhtml">
+<head th:replace="common/header :: common-header"/>>
+    <meta charset="UTF-8">
+    <title>Customer Likes</title>
+
+</head>
+<body>
+<div th:replace="common/header :: navbar"/>
+<div class="container">
+    <h2 style="text-align:center; margin-top  : 30px;"> <strong>You have Successfully Liked This Book</strong></h2>
+    <h2 style="text-align:center; margin-top  : 30px;"> <strong>Please Check your Cart</strong></h2>
+    <hr />
+
+    <center>
+    <img th:src="@{/image/like_success.jpg}" class="img-responsive"
+         style="width: 250px;" /> </center>
+</div>
+<div>
+<div th:replace="common/header :: footer"/>
+
+<div th:replace="common/header :: body-bottom-scripts"/>
+</div>
+</body>
+</html>
